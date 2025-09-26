@@ -48,7 +48,7 @@ function sndMsg() {
     }, 1000)
 }
 
-// btn click pr sen
+// btn click pr send
 SendButton.addEventListener('click', sndMsg)
 //enter pr km krega
 userinput.addEventListener('keydown', (event) => {
