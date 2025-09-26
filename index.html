@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Chatbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Header -->
+    <div class="chat-header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX0mKrzeX319CWVO-zz3O2uf9D7zdWMd_s5A&s" alt="Bot">
+      <div>
+        <div>ChatBot</div>
+        <p>Ask me anything!</p>
+      </div>
+    </div>
+
+    <!-- Messages -->
+    <div class="chat-messages" id="chatmsg">
+      <div class="message botreply">How can i help you?</div>
+    </div>
+
+    <!-- Input -->
+    <div class="chat-input">
+      <input type="text" id="userinput" placeholder="Type a message..." autocomplete="off"/>
+      <button id="SendButton" type="submit">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
